@@ -2,5 +2,5 @@
  (name sequoia_ppx)
  (public_name sequoia-ppx)
  (kind ppx_rewriter)
- (libraries sequoia ppx_tools_versioned ocaml-compiler-libs
+ (libraries sequoia ppx_tools_versioned
    ocaml-migrate-parsetree))

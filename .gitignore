@@ -5,3 +5,4 @@ _build/
 *.byte
 *.docdir
 *.install
+_opam
