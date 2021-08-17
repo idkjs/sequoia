@@ -1,0 +1,10 @@
+(alias
+ (name runtest)
+ (deps t.exe))
+
+(executable
+ (modes byte exe)
+ (name t)
+ (libraries sequoia sequoia-mysql)
+ (preprocess
+  (pps sequoia-ppx)))
