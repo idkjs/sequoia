@@ -3,11 +3,11 @@
  (deps t.exe))
 
 (rule
- (targets t.ml)
+ (targets t.re)
  (deps
-  (:< t.cppo.ml)
-  (glob_files tables/*.ml)
-  (glob_files queries/*.ml))
+  (:< t.cppo.re)
+  (glob_files tables/*.re)
+  (glob_files queries/*.re))
  (action
   (chdir
    %{workspace_root}
