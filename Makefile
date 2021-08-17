@@ -1,7 +1,9 @@
 INSTALL_ARGS := $(if $(PREFIX),--prefix $(PREFIX),)
 
+lock: ## Generate a lock file
+	opam lock . -y
 # Default rule
-default:
+default: ## Default rule, build install
 	dune build @install
 
 install:
